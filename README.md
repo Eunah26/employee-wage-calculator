@@ -1,72 +1,93 @@
 # employee-wage-calculator
-🧾 Employee Wage GUI – Java Starter Project (With File Writing)
+Here is your cleaned-up, **final concise README** version with better formatting and structure — still beginner-friendly and focused on your **Employee Wage GUI with file writing**:
 
-A beginner-friendly Java GUI project that calculates employee wages and saves/merges data to a file. This version avoids object-oriented programming and uses simple Java techniques to help new programmers understand GUIs, basic file handling, and data entry.
+---
 
-📌 Project Description
-This Java application allows the user to:
+# 🧾 Employee Wage GUI – Java Starter Project (With File Writing)
 
-Enter employee details (name, hours worked, and hourly rate)
+A beginner-friendly Java Swing project to calculate employee wages and save the results to a file. Designed without OOP to help new learners understand basic GUI and file handling in Java.
 
-Calculate the total wage
+---
 
-Merge new entries into a file (append mode)
+## 📌 Project Description
 
-View confirmation once data is saved
+This app allows users to:
 
-It uses Java Swing for the GUI and basic file I/O to write wage records to a text file.
+* Enter employee details (name, hours worked, hourly rate)
+* Calculate total wage
+* Save each entry to a text file (`wages.txt`) in append mode
+* See confirmation after saving
 
-🎯 Key Features
-Java Swing-based GUI
+It uses **Java Swing** for the GUI and basic **file I/O** for data persistence.
 
-Input fields for:
+---
 
-Employee Name
+## 🎯 Key Features
 
-Hours Worked
+* Simple GUI with input fields:
 
-Hourly Rate
+  * Employee Name
+  * Hours Worked
+  * Hourly Rate
+* "Calculate & Save" button:
 
-"Calculate & Save" button to:
+  * Computes total wage
+  * Appends data to `wages.txt`
+  * Clears input fields afterward
 
-Compute the wage
+---
 
-Merge entry into a text file (wages.txt)
+## 🧰 Technologies Used
 
-Resets input fields after saving
+* Java SE (JDK 8+)
+* Java Swing
+* FileWriter & BufferedWriter
+* IDE: NetBeans (or IntelliJ, Eclipse)
 
-🧰 Technologies Used
-Java SE (JDK 8 or higher)
+---
 
-Java Swing (GUI toolkit)
+## ⚙️ How It Works
 
-Java File I/O (FileWriter, BufferedWriter)
+1. User fills in employee details
+2. On clicking **Calculate & Save**:
 
-IDE used :NetBeans(IntelliJ IDEA, Eclipse, etc.)
+   * Wage is calculated:
+     `wage = hoursWorked * hourlyRate`
+   * Entry is saved to `wages.txt`:
 
-⚙️ How It Works
-User enters employee details
+     ```
+     Name: Alice | Hours: 40 | Rate: 12.5 | Total Wage: 500.0
+     ```
+   * Input fields are cleared
 
-On clicking the "Calculate & Save" button:
+---
 
-Wage is calculated:
-wage = hoursWorked * hourlyRate
+## 📚 Learning Objectives
+
+* Build basic Java GUIs with Swing
+* Handle and validate user input
+* Perform file writing in append mode
+* Focus on logic without OOP complexity
+
+---
+
+## 🔄 Possible Extensions
+
+* Add input validation (e.g., numbers only)
+* Add "View Saved Wages" feature
+* Sort entries by wage
+* Add timestamp to each entry
+
+---
+
+Let me know if you'd like a matching comment block for the top of your Java file, or a sample line of the output file.
 
 
-📌 Learning Objectives
-Practice building basic GUIs using Swing
+### 🔗 Live Demo
+[View the blog here](https://eunah26.github.io/my-tech-journey-blog/)
 
-Learn how to collect and process user input
+## 🎓 Built With
+Skills learned in my **Programming techniques** module during my BSc (Hons) in Computer Science & Networking Security.
 
-Understand how to write and append data to a file
-
-Avoid using object-oriented design patterns to keep things simple for beginners
-
-🔄 Possible Extensions
-Add error validation for text fields
-
-Create a “View Saved Wages” button to display file contents
-
-Implement sorting by wage in the file
-
-Add a timestamp to each entry
+## 📌 Author
+**Kau Ntatedi Eunah** 
