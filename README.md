@@ -83,11 +83,13 @@ It uses **Java Swing** for the GUI and basic **file I/O** for data persistence.
 Let me know if you'd like a matching comment block for the top of your Java file, or a sample line of the output file.
 
 
-### 🔗 Live Demo
-[View the blog here](https://eunah26.github.io/my-tech-journey-blog/)
+### 🔗 Screenshots
+<img width="690" height="592" alt="Screenshot 2025-08-08 213108" src="https://github.com/user-attachments/assets/84ada3da-bf11-41b1-9768-b1ff1b6c8688" />
+
+<img width="640" height="690" alt="Screenshot 2025-08-08 213144" src="https://github.com/user-attachments/assets/cc40c826-f40d-48e6-b2a7-8d55b3c7cbe5" />
 
 ## 🎓 Built With
-Skills learned in my **Programming techniques** module during my BSc (Hons) in Computer Science & Networking Security.
+Skills learned in my **Programming Techniques** module during my BSc (Hons) in Computer Science & Networking Security.
 
 ## 📌 Author
 **Kau Ntatedi Eunah** 
